@@ -1,11 +1,11 @@
 # breast-cancer-diagnostic-ml
 Clinical diagnostic model using Logistic Regression and Feature Scaling to classify breast cancer tumors with high sensitivity
-# 🔬 Breast Cancer Diagnostic Classification
+# Breast Cancer Diagnostic Classification
 
 ## Project Overview
-In clinical diagnostics, the accuracy of a model can be a matter of life and death. This project utilizes the **Wisconsin Breast Cancer Dataset** to build a predictive model that classifies tumors as **Malignant** (0) or **Benign** (1) based on digitized images of fine needle aspirates (FNA) of breast masses.
-
-As a **Bioinformatics Master's graduate**, I have designed this pipeline to emphasize **clinical safety**, prioritizing the minimization of **False Negatives** (missing a cancer diagnosis) over general accuracy.
+This project applies Machine Learning to clinical oncology. Using the Wisconsin Breast Cancer dataset, I built a model to classify tumors as Malignant (Cancerous) or Benign (Healthy).
+# The Bioinformatics Context In medical diagnostics
+The cost of a False Negative (telling a sick patient they are healthy) is catastrophic. Therefore, this project prioritizes Recall and utilizes Feature Scaling to ensure that small-scale biological measurements (like "smoothness") are weighted equally against large-scale measurements (like "area").
 
 ---
 
